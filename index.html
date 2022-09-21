@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Sorting app</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="main.css">
+	
+</head>
+
+<body>
+	<div class="main-content">
+		<div class = "navbar"> 
+		<button type="button" class="btn btn-outline-success" onClick="sort()">Sort</button>
+		<p>Quick Sort Visualizer</p>
+		<button type="button" class="btn btn-outline-success" onClick="reload()">Generate New Array</button>
+				</div>
+			<div class="bar-container">
+					<div id="container"></div>
+			</div>
+		
+		<div class="alert alert-success" role="alert">
+ 			 Quicksort is a divide-and-conquer algorithm. It works by selecting a 'pivot' element from the array and partitioning the other elements into two sub-arrays, according to whether they are less than or greater than the pivot. For this reason, it is sometimes called partition-exchange sort.The sub-arrays are then sorted recursively. This can be done in-place, requiring small additional amounts of memory to perform the sorting.
+
+
+		</div>
+	</div>
+
+</body>
+<script src = "index.js"></script>
+
+</html>
